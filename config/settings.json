@@ -1,0 +1,5 @@
+{
+  "default": {
+    "mongo": "mongodb://localhost:27017/"
+  }
+}
