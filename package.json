@@ -1,0 +1,19 @@
+{
+  "name": "gtfs-to-mongo",
+  "version": "1.0.0",
+  "description": "extract from gtfs and put into mongo the data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tt-opendata/gtfs-to-mongo.git"
+  },
+  "author": "Daniele Brugnara <daniele@brugnara.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tt-opendata/gtfs-to-mongo/issues"
+  },
+  "homepage": "https://github.com/tt-opendata/gtfs-to-mongo"
+}
