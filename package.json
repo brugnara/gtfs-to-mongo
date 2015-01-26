@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/tt-opendata/gtfs-to-mongo",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "0.9.0",
     "csv-parse": "0.0.6",
-    "env-settings": "^0.2.7",
-    "mongodb": "^1.4.29"
+    "env-settings": "0.2.7",
+    "mongodb": "1.4.29"
   }
 }
