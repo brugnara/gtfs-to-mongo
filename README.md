@@ -31,5 +31,8 @@ Check `config/settings.json` for mongo connection url.
 ## RUN
 
 ```bash
+# only first time:
+# npm install
+
 npm run
 ```
