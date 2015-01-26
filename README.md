@@ -34,5 +34,5 @@ Check `config/settings.json` for mongo connection url.
 # only first time:
 # npm install
 
-npm run
+npm start
 ```
