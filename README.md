@@ -16,7 +16,7 @@ Just for fun and future needs.
 
 You can use GTFS data you want. This project is built for our local public transport. Feel free to fork and reuse!
 
-Go to `dati.trentino.it` and download `gtfs` files for `trentino trasporti` and unzip into that folders `urbano` and `extraurbano` zips,
+Go to `http://www.ttesercizio.it/TTEOpenData/` and download `gtfs` files for `trentino trasporti` and unzip into that folders `urbano` and `extraurbano` zips,
 getting as a result, something like:
 
 ```
