@@ -50,12 +50,12 @@ npm start
 Change query for more
 
 ```
-db.stops.aggregate([
+db.U_stops.aggregate(
   {
     $geoNear: {
       near: {
         type: "Point",
-        coordinates: [ 11.541747, 46.285513 ]
+        coordinates: [ 11.137446, 46.047970 ]
       },
       distanceField: "dist.calculated",
       maxDistance: 500,
@@ -65,5 +65,5 @@ db.stops.aggregate([
       spherical: true
     }
   }
-])
+)
 ```
