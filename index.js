@@ -8,9 +8,7 @@ var handlers = new Handlers({
   urbano: './gtfs/googletransiturbano/'
 });
 
-// new Mongo(settings.mongo + 'tt_exu', handlers.extraurbano.bind(handlers));
-// new Mongo(settings.mongo + 'tt_u', handlers.urbano.bind(handlers));
-new Mongo(settings.mongo, function(err, db) {
+var mongo = new Mongo(settings.mongo, function(err, db) {
   async.parallel([
     function(cb) {
       handlers.extraurbano('EXU', db, cb);
@@ -21,5 +19,6 @@ new Mongo(settings.mongo, function(err, db) {
   ], function(err, junk) {
     err && console.error(err);
     !err && console.log('DONE!');
+    mongo.db.close();
   })
 });
