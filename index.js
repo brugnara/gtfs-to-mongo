@@ -4,8 +4,8 @@ var async = require('async');
 var Mongo = require('./lib/mongo');
 var Handlers = require('./lib/handlers');
 var handlers = new Handlers({
-  extraurbano: './gtfs/googletransitextraurbano/',
-  urbano: './gtfs/googletransiturbano/'
+  extraurbano: './gtfs/google_transit_extraurbano_tte/',
+  urbano: './gtfs/google_transit_urbano_tte/'
 });
 
 var mongo = new Mongo(settings.mongo, function(err, db) {
