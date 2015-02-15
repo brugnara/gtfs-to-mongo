@@ -21,11 +21,11 @@ getting as a result, something like:
 
 ```
 - gtfs
-|- googletransitextraurbano
+|- google_transit_extraurbano_tte
 |-- agency.txt
 |-- routes.txt
 |-- ....
-|- googletransiturbano
+|- google_transit_urbano_tte
 |-- agency.txt
 |-- ....
 ```
