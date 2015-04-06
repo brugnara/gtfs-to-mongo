@@ -3,3 +3,4 @@ node_modules/
 gtfs/
 out.txt
 npm-debug.log
+config/settings.json
